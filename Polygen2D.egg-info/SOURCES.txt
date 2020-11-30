@@ -1,0 +1,7 @@
+README.md
+setup.py
+Polygen2D.egg-info/PKG-INFO
+Polygen2D.egg-info/SOURCES.txt
+Polygen2D.egg-info/dependency_links.txt
+Polygen2D.egg-info/requires.txt
+Polygen2D.egg-info/top_level.txt
