@@ -17,12 +17,12 @@ DESCRIPTION = 'Polygen2D: Polygen in 2D with Python.'
 URL = 'https://github.com/Litlteor/Polygen2D'
 EMAIL = 'admin@sixming.com'
 AUTHOR = 'Littleor'
-REQUIRES_PYTHON = '>=3.0.0'
-VERSION = '0.1.0'
+REQUIRES_PYTHON = '>=3.6.0'
+VERSION = '0.1.2'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
-     'numpy', 'decimal'
+     'numpy'
 ]
 
 # What packages are optional?
@@ -105,7 +105,7 @@ setup(
     url=URL,
     #packages=find_packages(exclude=["tests", "*.tests", "*.tests.*", "tests.*"]),
     # If your package is a single module, use this instead of 'packages':
-    # py_modules=['mypackage'],
+    py_modules=['Polygen2D'],
 
     # entry_points={
     #     'console_scripts': ['mycli=mymodule:cli'],
